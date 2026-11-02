@@ -39,7 +39,7 @@ Zenith Tasks is designed with a calm, uncluttered aesthetic to help you focus on
 - **Language**: [TypeScript](https://www.typescriptlang.org/) for strict type safety
 - **UI Library**: [React 19](https://react.dev/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) with custom design tokens
-- **Deployment**: [GitHub Pages](https://pages.github.com/) via GitHub Actions
+- **Deployment**: [GitHub Pages](https://mahfuzul-alam.github.io/todo-app/) via GitHub Actions
 
 ### Directory Structure
 
@@ -87,7 +87,7 @@ todo-app/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/USERNAME/todo-app.git
+git clone https://github.com/Mahfuzul-Alam/todo-app.git
 cd todo-app
 ```
 
@@ -127,17 +127,12 @@ The repository is configured for zero-config automatic deployment to GitHub Page
 4. Packages the `./out` static export directory.
 5. Deploys the static site directly to GitHub Pages.
 
-### Enabling GitHub Pages in Repository Settings
+### Live URL
 
-If setting up for the first time on GitHub:
-1. Navigate to your repository on GitHub: `https://github.com/USERNAME/todo-app`.
-2. Go to **Settings** > **Pages** (under "Code and automation").
-3. Under **Build and deployment** > **Source**, select **GitHub Actions**.
-4. Push your commit to the `main` branch.
-5. View the progress under the **Actions** tab. Once completed, your live site will be available at:
-   ```
-   https://USERNAME.github.io/todo-app/
-   ```
+Once the automated workflow finishes, the live site is served at:
+```
+https://mahfuzul-alam.github.io/todo-app/
+```
 
 ---
 
